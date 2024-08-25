@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 57.5%;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #535151;
+}
+
+.navbar-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    color: #000080;
+}
+
+.stock-dropdown {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.stock-dropdown:hover,
+.stock-dropdown:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.DataDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1250px;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.graph-container,
+.transaction-container,
+.holdings-container,
+.transaction-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 720px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+

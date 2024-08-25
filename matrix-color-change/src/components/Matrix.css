@@ -1,0 +1,17 @@
+.matrix{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    gap:5px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(205, 201, 201);
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.box.glow {
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.7);
+}

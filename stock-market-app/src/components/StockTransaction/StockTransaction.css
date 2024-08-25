@@ -1,0 +1,73 @@
+.StockTransaction {
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.StockTransaction h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.StockTransaction form {
+    display: flex;
+    flex-direction: column;
+}
+
+.StockTransaction div {
+    margin-bottom: 15px;
+}
+
+.StockTransaction label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.StockTransaction input,
+.StockTransaction select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    box-sizing: border-box;}
+
+.StockTransaction input:focus,
+.StockTransaction select:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); 
+}
+
+.StockTransaction button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.StockTransaction button:hover {
+    background-color: #0056b3; }
+
+.StockTransaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 700px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
